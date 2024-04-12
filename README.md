@@ -1,10 +1,10 @@
-# ISO8583 PostHog
+# ISO8583 PostHoga
 
 > Create PostHog dashboard from ISO8583 messages
 
 
 
-Status: Planning
+Status: Working on ISO8583 parser
 
 ![image](https://github.com/ashgansh/iso8583-posthog/assets/11430621/92de9b5a-1b25-466e-9f3c-0a248ab00f5b)
 
@@ -26,4 +26,6 @@ Under the hood, this service will interpret complex authorization and clearing m
 > ISO8583 parser
 
 To Do:
-- [ ] Create an ISO8583 parser
+- [x] Create a simplified ISO8583 parser
+- [ ] Extend the parser
+- [ ] Create a server
