@@ -6,6 +6,7 @@
 
 Status: Working on ISO8583 parser
 
+
 ![image](https://github.com/ashgansh/iso8583-posthog/assets/11430621/92de9b5a-1b25-466e-9f3c-0a248ab00f5b)
 
 ### What is it
@@ -20,9 +21,10 @@ It allows you to create dashboards that answers questions such as:
 
 ### How does it work
 
-Under the hood, this service will interpret complex authorization and clearing messages and send events to posthog.
+Under the hood, it uses the `index.mjs` iso8583 parser to interpret (pre-serialized) iso8583 messages into more interpretable data.
 
-![image](https://github.com/ashgansh/iso8583-posthog/assets/11430621/e4afff42-e547-4217-badc-356233c7e3d3)
+![image](https://github.com/ashgansh/iso8583-posthog/assets/11430621/ca99942e-7aac-4116-827b-be681a078b67)
+
 > ISO8583 parser
 
 To Do:
